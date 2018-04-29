@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- Einbindung jQuery -->      
+      <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" />
+      
+      <script src="../jquery/jquery-3.2.1.min.js"></script>
+	
+      <link href="styles/Stammbaum.css" rel="stylesheet" type="text/css" />
+
+      <title>Stammbaum</title>
+   </head>
+          
+  
+   <body>
+     <div data-role="page" id="stammbaum">
+         
+       <!-- Navigation -->
+       <div class="navbar navbar-default navbar-fixed-top" >
+          <div class="container">
+            <ul class="nav navbar-nav" data-role="navbar">
+              <li class="active"><a href="./Stammbaum.html">Home</a></li>
+              <li><a href="Personen Petersen/index-Personen-Petersen.html">Personen Petersen/Bahruth</a></li>
+              <li><a href="Personen Essert/index-Personen-Essert.html">Personen Essert</a></li>
+    	      <li><a href="Urkunden/index-Urkunden.html">Urkunden</a></li>
+    	      <li><a href="statistics.html">Statistik</a></li>
+            </ul>
+          </div>
+        </div><!-- /navbar -->
+    
+        <div class="container">
+            
+            <h1 data-role="header" class="title text-center">Stammbaum</h1>
+            <p>Stammbaum der Familien Bahruth, Petersen und Essert</p>
+            
+            <canvas id="person_chart_canvas_id" width="742" height="514"></canvas>
+            <script type="text/javascript">var personChartData = [{"left":210,"dateLineSpacing":12,"currentPerson":true,"ancestorBoxIndexes":[1,4],"dateTextLines":["07.09.1964"],"partnerBoxIndexes":[7],"width":136,"nameLineSpacing":14,"isFemale":true,"childBoxIndexes":[],"height":48,"nameTextLines":["Claudia Essert"],"linkToPersonPage":".\/persons\/Person_99231416.html","personExported":true,"top":157},{"left":396,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[2,3],"dateTextLines":["03.01.1938"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":false,"childBoxIndexes":[],"height":65,"nameTextLines":["Hanns-Jürgen ","Bening"],"linkToPersonPage":".\/persons\/Person_39264273.html","personExported":true,"top":51.5},{"left":582,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":["1895"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":false,"childBoxIndexes":[],"height":48,"nameTextLines":["Fritz Bening"],"linkToPersonPage":".\/persons\/Person_30089088.html","personExported":true,"top":24},{"left":582,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":["1909"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":true,"childBoxIndexes":[],"height":48,"nameTextLines":["Charlotte Bening"],"linkToPersonPage":".\/persons\/Person_12103900.html","personExported":true,"top":96},{"left":396,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[5,6],"dateTextLines":["26.7.1938"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":true,"childBoxIndexes":[],"height":48,"nameTextLines":["Ursula Bening"],"linkToPersonPage":".\/persons\/Person_1978344.html","personExported":true,"top":229},{"left":582,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":["14.05.1909"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":false,"childBoxIndexes":[],"height":82,"nameTextLines":["Walter Henry ","Ferdinand ","Petersen"],"linkToPersonPage":".\/persons\/Person_8324241.html","personExported":true,"top":168},{"left":582,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":["14.11.1915"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":true,"childBoxIndexes":[],"height":65,"nameTextLines":["Margarete ","Petersen"],"linkToPersonPage":".\/persons\/Person_31493156.html","personExported":true,"top":273.5},{"left":210,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[8,9],"dateTextLines":["26.6.1960"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":false,"childBoxIndexes":[10,11],"height":65,"nameTextLines":["Hans Thomas ","Erich Essert"],"linkToPersonPage":".\/persons\/Person_61638754.html","personExported":true,"top":398},{"left":396,"dateLineSpacing":0,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":[],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":false,"childBoxIndexes":[],"height":33,"nameTextLines":["Erich Essert"],"linkToPersonPage":".\/persons\/Person_18203688.html","personExported":true,"top":385},{"left":396,"dateLineSpacing":0,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":[],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":true,"childBoxIndexes":[],"height":33,"nameTextLines":["Margareta Essert"],"linkToPersonPage":".\/persons\/Person_69898236.html","personExported":true,"top":442},{"left":24,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":["12.1.1999"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":false,"childBoxIndexes":[],"height":48,"nameTextLines":["Felix Essert"],"linkToPersonPage":".\/persons\/Person_65630640.html","personExported":true,"top":370},{"left":24,"dateLineSpacing":12,"currentPerson":false,"ancestorBoxIndexes":[],"dateTextLines":["20.6.2001"],"partnerBoxIndexes":[],"width":136,"nameLineSpacing":14,"isFemale":false,"childBoxIndexes":[],"height":48,"nameTextLines":["Philip Essert"],"linkToPersonPage":".\/persons\/Person_27042744.html","personExported":true,"top":442}]</script>
+            <script type="text/javascript" src="./scripts/personchart.js"></script>
+            <script type="text/javascript">initPersonChart()</script>
+
+        </div><!-- /container -->
+                 
+     </div><!--/page -->
+   </body>
+</html>
