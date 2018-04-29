@@ -1,2 +1,1 @@
-# Stammbaurm
 # Stammbaum
