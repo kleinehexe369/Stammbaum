@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Personenliste Essert</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- Einbindung jQuery -->
+      <link rel="stylesheet" href="../../bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../../bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" />
+      <!-- <link rel="stylesheet" href="../../jQuery mobile/jquery.mobile-1.4.5.min.css" /> -->
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+
+
+      <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <!-- <script src="../../jquery/jquery-3.2.1.min.js"></script>-->
+      <script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>  
+      <!-- <script src="../../jQuery mobile/jquery.mobile-1.4.5.min.js"></script> -->
+	
+      <link href="../styles/Stammbaum.css" rel="stylesheet" type="text/css" />
+	
+   </head>
+   
+   <body>
+     <div data-role="page" id="personen1">
+
+       <div class="navbar navbar-default navbar-fixed-top" >
+          <div class="container">
+            <ul class="nav navbar-nav" data-role="navbar">
+              <li><a href="../Stammbaum.html">Home</a></li>
+              <li><a href="../Personen Petersen/index-Personen-Petersen.html">Personen Petersen/Bahruth</a></li>
+              <li class="active"><a href="./index-Personen-Essert.html">Personen Essert</a></li>
+    	      <li><a href="../Urkunden/index-Urkunden.html">Urkunden</a></li>
+    	      <li><a href="../statistics.html">Statistik</a></li>
+            </ul>
+          </div>
+        </div><!-- /navbar -->
+       
+        <div class="container">
+          <h1 data-role="header" class="title text-center">Liste der Personen: Essert</h1>
+        </div><!-- /container -->
+
+          <!-- Liste der Personen -->
+          <ul id="personenliste1" data-role="listview">
+            <!-- Hier werden die JSON Daten hineingeladen --> 
+          </ul> <!-- list-group -->
+                
+                 
+<script type="text/javascript">
+  $('#personen1').on("pageshow", function() {
+
+	$('#personenliste1').empty();
+
+	$.getJSON('personen-essert.json', function(data) {
+		$.each(data.personen, function(i,item){
+  			$('<li><a href="person-detail-essert.html" data-transition="slide" onClick="javascript:sessionStorage.name=\''+item.name+'\';"><img src="Bilder/'+item.bild+'" /><h3>' + item.name + '</h3></a></li>').appendTo('#personenliste1');
+		});
+		$('#personenliste1').listview('refresh');
+	});
+});
+</script>
+
+     </div><!--/page -->
+   </body>
+</html>

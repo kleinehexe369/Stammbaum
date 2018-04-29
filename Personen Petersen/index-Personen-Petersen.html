@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- Einbindung jQuery -->
+      <link rel="stylesheet" href="../../bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../../bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" />
+      
+      <script src="../../jquery/jquery-3.2.1.min.js"></script>
+	
+      <link href="../styles/Stammbaum.css" rel="stylesheet" type="text/css" />
+	
+      <title>Personenliste Baruth/Petersen</title>
+   </head>
+   
+   <body>
+     <div data-role="page" id="personen1">
+
+       <!-- Navigation -->
+       <div class="navbar navbar-default navbar-fixed-top" >
+          <div class="container">
+            <ul class="nav navbar-nav" data-role="navbar">
+              <li><a href="../Stammbaum.html">Home</a></li>
+              <li class="active"><a href="./index-Personen-Petersen.html">Personen Petersen/Bahruth</a></li>
+              <li><a href="../Personen Essert/index-Personen-Essert.html">Personen Essert</a></li>
+    	      <li><a href="../Urkunden/index-Urkunden.html">Urkunden</a></li>
+    	      <li><a href="../statistics.html">Statistik</a></li>
+            </ul>
+          </div>
+        </div><!-- /navbar -->
+
+        <div class="container">
+       
+          <h1 data-role="header" class="title text-center">Liste der Personen Bahruth und Petersen</h1>
+          
+          <!-- Liste der Personen -->  
+          <div>      
+            <ul id="personenliste1" data-role="listview">
+            <!-- Hier werden die JSON Daten hineingeladen -->         
+            </ul>
+          </div>  
+        </div>
+
+                 
+<script type="text/javascript">
+$('#personen1').on("pageshow", function() {
+
+	$('#personenliste1').empty();
+
+	$.getJSON('personen-essert.json', function(data) {
+		$.each(data.personen, function(i,item){
+  			$('<li><a href="person-detail-essert.html" data-transition="slide" onClick="javascript:sessionStorage.name=\''+item.name+'\';"><img src="Bilder/'+item.bild+'" /><h3>' + item.name + '</h3></a></li>').appendTo('#personenliste1');
+		});
+		$('#personenliste1').listview('refresh');
+	});
+});
+</script>
+
+     </div><!--/page -->
+   </body>
+</html>

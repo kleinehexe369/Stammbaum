@@ -1,0 +1,1354 @@
+{
+ 	"personen": [
+ 	{
+                "id": "5400",
+                "name": "Johann Heinrich Steen",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Sophia Elisabeth Munharten",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Eleonore Luise Friederike Stein",
+                "schule": "",
+                "beruf": ""
+	},
+    
+ 	{
+                "id": "5300",
+                "name": "Sophia Elisabeth Munharten",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Eleonore Luise Friederike Stein",
+                "schule": "",
+                "beruf": ""
+	},
+    
+        {
+                "id": "5200",
+                "name": "Georg August Maahs",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "16.3.1837",
+                "eltern": "",
+                "heirat": {
+                          "name": "Louise Tusnelda Pevestorf",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Johanne Amalia",
+                "schule": "",
+                "beruf": "Schneider-Amtsmeister"
+        },
+    
+        {
+                "id": "5100",
+                "name": "Louise Tusnelda Pevestorf",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "19. April 1835",
+                "eltern": "",
+                "heirat": {
+                          "name": "Georg August Maahs",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Johanne Amalia",
+                "schule": "",
+                "beruf": ""
+        },
+    
+ 	{
+                "id": "5000",
+                "name": "Peter Christian Petersen",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Eleonore Luise Friederike Stein",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Heinrich Christian Petersen",
+                "schule": "",
+                "beruf": "Schuhmacher"
+	},
+ 	{
+                "id": "4900",
+                "name": "Eleonore Luise Friederike Stein",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Johann Heinrich",
+                          "mutter": "Sophia Elisabeth",
+                          "familienname": "Steen",
+                          "geburtsname": "Munharten",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Peter Christian Petersen",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Heinrich Christian Petersen",
+                "schule": "",
+                "beruf": ""
+	},
+    
+        {
+                "id": "4500",
+                "name": "Johanne Amalia Maahs",
+                "bild": "unknown.png",
+                "geboren": "9.8.1815",
+                "geburtsort": "Hannover",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Georg August",
+                          "mutter": "Louise Tusnelda",
+                          "familienname": "Maahs",
+                          "geburtsname": "Pevestorf",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Friedrich Wilhelm Voges",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Thusnelda Dorette Emma, Julie",
+                "schule": "",
+                "beruf": ""
+        },
+    
+ 	{
+                "id": "4800",
+                "name": "Heinrich Christian Petersen",
+                "bild": "unknown.png",
+                "geboren": "14.8.1833",
+                "geburtsort": "Garding",
+                "gestorben": "30.12.1904",
+                "eltern": {
+                          "vater": "Peter Christian",
+                          "mutter": "Eleonore Luise Friederike",
+                          "familienname": "Petersen",
+                          "geburtsname": "Stein",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Anna Louise Lanker",
+                          "datum": "<a href=\"../Urkunden/HC Petersen Trauschein.html\">18.2.1866</a>",
+                          "bemerkung": ""
+                          },
+                "kinder": "Hermann Petersen (adoptiert)",
+                "schule": "",
+                "beruf": "Fettwarenhändler"
+	},
+    
+        {   
+                "id": "4700",
+                "name": "Anna Louise Lanker",
+                "bild": "unknown.png",
+                "geboren": "24.5.1839",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Heinrich Christian Petersen",
+                          "datum": "<a href=\"../Urkunden/HC Petersen Trauschein.html\">19.1.1866</a>",
+                          "bemerkung": ""
+                          },
+                "kinder": "Hermann Petersen (adoptiert)",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "4600",
+                "name": "Friedrich Wilhelm Voges",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Narwiech",
+                "gestorben": "<a href=\"../Urkunden/HC Petersen Trauschein.html\">7.3.1871</a>",
+                "eltern": "",
+                "heirat": {
+                          "name": "Johane Amalia Maahs",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Thusnelda Dorette Emma, Julie",
+                "schule": "",
+                "beruf": "Wundarzt"
+        },
+    
+        {
+                "id": "4400",
+                "name": "Adolf Grell",
+                "bild": "AdolfGrell_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Therese",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Emma Johanna Adolphina , Willi, Emil, Therese",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "",
+                "geschichten2": "AdolfThereseGrellGeschichten.html"
+        },
+    
+        {
+                "id": "4300",
+                "name": "Therese",
+                "bild": "ThereseGrell_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Adolf Grell",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Emma Johanna Adolphina , Willi, Emil, Therese",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "",
+                "geschichten2": "AdolfThereseGrellGeschichten.html"
+        },
+    
+        {
+                "id": "4200",
+                "name": "Henry Gustav Bahruth",
+                "bild": "HenryBahruth_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "April 1917",
+                "eltern": "",
+                "heirat": {
+                          "name": "Emma Johanna Adolphina Grell",
+                          "datum": "13.5.1872 (?)",
+                          "bemerkung": ""
+                          },
+                "kinder": "Ferdinand, Julie, Edmund, Martha, Anna, Robert",
+                "schule": "",
+                "beruf": "Steindrucker, Gründer der Druckerei Bahruth",
+                "geschichten": "HenryGustavBahruthGeschichten.html",
+                "geschichten2": "HenryEmmiBahruthGeschichten.html"
+        },
+    
+        {
+                "id": "4100",
+                "name": "Emma Johanna Adolphina Grell",
+                "bild": "EmmiGrell_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Adolf",
+                          "mutter": "Therese",
+                          "familienname": "Grell",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Henry Gustav Bahruth",
+                          "datum": "13.5.1872 (?)",
+                          "bemerkung": ""
+                          },
+                "kinder": "Ferdinand, Julie, Edmund, Martha, Anna, Robert",
+                "schule": "",
+                "beruf": "Hutmacherin",
+                "geschichten": "EmmiGrellGeschichten.html",
+                "geschichten2": "HenryEmmiBahruthGeschichten.html"
+        },
+    
+        {
+                "id": "4000",
+                "name": "William Grell",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Adolf",
+                          "mutter": "Therese",
+                          "familienname": "Grell",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Mathilde",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "keine",
+                "schule": "",
+                "beruf": "Lithograph, Partner von Henry Bahruth"
+        },
+    
+        {
+                "id": "3900",
+                "name": "Emil Grell",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Adolf",
+                          "mutter": "Therese",
+                          "familienname": "Grell",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Berta",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "keine",
+                "schule": "",
+                "beruf": "Musiker"
+        },
+    
+        {
+                "id": "3800",
+                "name": "Therese Grell",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Adolf Grell",
+                          "mutter": "Therese",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Georg Guth",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Alma, Adele, Hedwig, Alice, Guschi, 2.Sohn",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "3700",
+                "name": "Georg Guth",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Therese Grell",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Alma, Adele, Hedwig, Alice, Guschi, 2.Sohn",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "3600",
+                "name": "Alma Guth",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Albert Schwarke",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "3500",
+                "name": "Hedwig Guth",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": "",
+                "kinder": "Greta",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "3400",
+                "name": "Alice Guth",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": "",
+                "kinder": "Hans-Georg, Ruth",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "3000",
+                "name": "Thusnelda Dorette Emma Voges",
+                "bild": "unknown.png",
+                "geboren": "8.1848",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Friedrich Wilhelm",
+                          "mutter": "Johanne Amalia",
+                          "familienname": "Voges",
+                          "geburtsname": "Maahs",
+                          "bemerkung": "in späteren Urkunden als 'Maaß' geschrieben"
+                          },
+                "heirat": "",
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+
+        {
+                "id": "3300",
+                "name": "Catharina zum Felde",
+                "bild": "unknown.png",
+                "geboren": "1849",
+                "geburtsort": "Steinkirchen (Hannover)",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": "",
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "3100",
+                "name": "Julie Voges",
+                "bild": "unknown.png",
+                "geboren": "26.6.1850",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Friedrich Wilhelm",
+                          "mutter": "Johanne Amalia",
+                          "familienname": "Voges",
+                          "geburtsname": "Maahs",
+                          "bemerkung": "in späteren Urkunden als 'Maaß' geschrieben"
+                          },
+                "heirat": "",
+                "kinder": "",
+                "schule": "",
+                "beruf": "Putzmacherin"
+        },
+    
+        {
+                "id": "3200",
+                "name": "Hermann Petersen",
+                "bild": "HermannPetersen_klein.jpg",
+                "geboren": "17.11.1872",
+                "geburtsort": "Hamburg",
+                "gestorben": "1941 an Krebs",
+                "eltern": {
+                          "vater": "?",
+                          "mutter": "Cathrina",
+                          "familienname": "zum Felde",
+                          "geburtsname": "",
+                          "bemerkung": "adoptiert von Heinrich Christian Petersen und Luise geb. Lanker"
+                          },
+                "heirat": {
+                          "name": "Julie Wilhelmine Elise Bahruth",
+                          "datum": "<a href=\"../Urkunden/Hermann_Julie Hochzeit.html\">6.4.1901</a>",
+                          "bemerkung": ""
+                          },
+                "kinder": "Else Carla Julie, Walter Henry Ferdinand",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "HermannPetersenGeschichten.html",
+                "geschichten2":"HermannJulieGeschichten.html"
+        },
+    
+        {
+                "id": "2900",
+                "name": "Ferdinand Bahruth",
+                "bild": "FerdinandBahruth_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Henry Gustav",
+                          "mutter": "Emma",
+                          "familienname": "Bahruth",
+                          "geburtsname": "Grell",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Alwine",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Henry",
+                "schule": "",
+                "beruf": "",
+                "geschichten2": "AlwineFerdinandGeschichten.html"
+        },
+    
+        {
+                "id": "2800",
+                "name": "Alwine",
+                "bild": "AlwineBahruth_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Ferdinand Bahruth",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Henry",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "AlwineBahruthGeschichten.html",
+                "geschichten2": "AlwineFerdinandGeschichten.html"
+        },
+    
+        {
+                "id": "2700",
+                "name": "Julie Wilhelmine Elise Bahruth",
+                "bild": "JulieBahruth_klein.JPG",
+                "geboren": "6.4.1878",
+                "geburtsort": "",
+                "gestorben": "1955",
+                "eltern": {
+                          "vater": "Henry Gustav",
+                          "mutter": "Emma",
+                          "familienname": "Bahruth",
+                          "geburtsname": "Grell",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Hermann Petersen",
+                          "datum": "6.4.1901",
+                          "bemerkung": ""
+                          },
+                "kinder": "Else Carla Julie, Walter Henry Ferdinand",
+                "schule": "",
+                "beruf": "",
+                "geschichten":"JulieBahruthGeschichten.html",
+                "geschichten2":"HermannJulieGeschichten.html"
+        },
+    
+        {
+                "id": "2600",
+                "name": "Edmund Bahruth",
+                "bild": "EdmundBahruth_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Henry Gustav",
+                          "mutter": "Emma",
+                          "familienname": "Bahruth",
+                          "geburtsname": "Grell",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Paula",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": ", Emmi, ",
+                "schule": "",
+                "beruf": "Dachdecker",
+                "geschichten": "EdmundBahruthGeschichten.html",
+                "geschichten2": "EdmundPaulaBahruthGeschichten.html"
+        },
+    
+        {
+                "id": "2590",
+                "name": "Paula Bahruth",
+                "bild": "PaulaBahruth_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Edmund Bahruth",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": ", Emmi, ",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "PaulaBahruthGeschichten.html",
+                "geschichten2": "EdmundPaulaBahruthGeschichten.html"
+
+        },
+    
+        {
+    
+                "id": "2500",
+                "name": "Martha Bahruth",
+                "bild": "MarthaBahruth_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Henry Gustav",
+                          "mutter": "Emma",
+                          "familienname": "Bahruth",
+                          "geburtsname": "Grell",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Karl Stier",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Ilse, Carla",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "2400",
+                "name": "Anna Bahruth",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Henry Gustav",
+                          "mutter": "Emma",
+                          "familienname": "Bahruth",
+                          "geburtsname": "Grell",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Paul Heidenreuter",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Käthe, Fritz",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "AnnaBahruthGeschichten.html"
+        },
+
+        { 
+                "id": "2300",
+                "name": "Robert Bahruth",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Henry Gustav",
+                          "mutter": "Emma",
+                          "familienname": "Bahruth",
+                          "geburtsname": "Grell",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Paula",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "2220",
+                "name": "Dora Kreienberg",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Heinrich Schaper",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Otto Schaper",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "",
+                "geschichten2": ""
+        },
+    
+        {
+                "id": "2200",
+                "name": "Amanda Kreienberg",
+                "bild": "AmandaLinde_klein.jpg",
+                "geboren": "11.9.1893",
+                "geburtsort": "",
+                "gestorben": "Herbst 1967",
+                "eltern": "",
+                "heirat": {
+                          "name": "Hugo Linde",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Margarete",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "AmandaLindeGeschichten.html",
+                "geschichten2": ""
+        },
+    
+        {
+                "id": "2000",
+                "name": "Fritz Bening",
+                "bild": "unknown.png",
+                "geboren": "1895",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                         "name": "Charlotte Paegel",
+                         "datum": "",
+                         "bemerkung": ""
+                          },
+                "kinder": "Wolfgang, Dieter, Hanns-Jürgen",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "2210",
+                "name": "Elise Kreienberg",
+                "bild": "unknown.png",
+                "geboren": "1896",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Heinrich Willumeit",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Herta Willumeit",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "EliseWillumeitGeschichten",
+                "geschichten2": ""
+        },
+    
+        {
+                "id": "2100",
+                "name": "Else Carla Julie Petersen",
+                "bild": "Else_klein.jpg",
+                "geboren": "11.9.1902",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Hermann",
+                          "mutter": "Julie",
+                          "familienname": "Petersen",
+                          "geburtsname": "Bahruth",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Georg Jürgens",
+                          "datum": "1930",
+                          "bemerkung": "nach dessen Tod mit Georg Diem"
+                          },
+                "kinder": "Julia (1931), Marianne (1935)",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "ElseCarlaJuliePetersenGeschichten.html"
+        },
+    
+        {
+                "id": "1900",
+                "name": "Charlotte Paegel",
+                "bild": "unknown.png",
+                "geboren": "1909",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                         "name": "Fritz Bening",
+                         "datum": "",
+                         "bemerkung": ""
+                          },
+                "kinder": "Wolfgang, Dieter, Hanns-Jürgen",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "1850",
+                "name": "Emma Bahruth",
+                "bild": "EmmiBahruth2_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Edmund",
+                          "mutter": "Paula",
+                          "familienname": "Bahruth",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "EmmiBahruthGeschichten.html",
+                "geschichten2": ""
+
+        },
+    
+        {
+                "id": "1825",
+                "name": "Helene Bahruth",
+                "bild": "LeniBahruth_klein.jpg",
+                "geboren": "23.09.1908",
+                "geburtsort": "",
+                "gestorben": "03.05.1992",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Henry Bahruth",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Gerhard, Helga, Rolf Ferdinand Alwin ",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "HeleneBahruthGeschichten.html",
+                "geschichten2": "HenryLeniBahruthGeschichten.html"
+        },
+    
+        {
+                "id": "1820",
+                "name": "Henry Bahruth",
+                "bild": "HenryBahruth2_klein.jpg",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Ferdinand",
+                          "mutter": "Alwine",
+                          "familienname": "Bahruth",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Helene Bahruth",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Gerhard, Helga, Rolf Ferdinand Alwin",
+                "schule": "",
+                "beruf": "",
+                "geschichten2": "HenryLeniBahruthGeschichten.html"
+        },
+        {
+                "id": "1800",
+                "name": "Walter Henry Ferdinand Petersen",
+                "bild": "WalterPetersen_klein.jpg",
+                "geboren": "14.05.1909",
+                "geburtsort": "Hamburg",
+                "gestorben": "2003",
+                "eltern": {
+                          "vater": "Hermann",
+                          "mutter": "Julie",
+                          "familienname": "Petersen",
+                          "geburtsname": "Bahruth",
+                          "bemerkung": ""
+                         },
+                "heirat": {
+                        "name": "Margarete Kreienberg",
+                        "datum": "21.8.1937",
+                        "bemerkung": "Dreieinigkeitskirche St. Georg"
+                         },
+                "kinder": "Ursula, Rolf, Gisela",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "WalterPetersenGeschichten.html",
+                "geschichten2": "WalterGretelPetersenGeschichten.html"
+        },
+    
+        {
+                "id": "1700",
+                "name": "Margarete Kreienberg",
+                "bild": "MargareteKreienberg_klein.jpg",
+                "geboren": "14.11.1915",
+                "geburtsort": "",
+                "gestorben": "2006",
+                "eltern": {
+                           "vater": "Alfred Krause",
+                           "mutter": "Amanda Kreienberg",
+                           "familienname": "",
+                           "geburtsname": "",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Walter Henry Ferdinand Petersen",
+                         "datum": "21.8.1937",
+                         "bemerkung": "Dreieinigkeitskirche St. Georg"
+                          },
+                "kinder": "Ursula, Rolf, Gisela",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "MargareteKreienbergGeschichten.html",
+                "geschichten2": "WalterGretelPetersenGeschichten.html"
+        },
+    
+        {
+                "id": "1650",
+                "name": "Helga Bahruth",
+                "bild": "unknown.png",
+                "geboren": "23.09.1933",
+                "geburtsort": "Hamburg",
+                "gestorben": "27.02.1994",
+                "eltern": {
+                          "vater": "Henry",
+                          "mutter": "Helene",
+                          "familienname": "Bahruth",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Gerd Denker",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Susann, Finn, Nils",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "HelgaBahruthGeschichten.html"
+        },
+    
+        {
+                "id": "1600",
+                "name": "Rolf Ferdinand Alwin Bahruth",
+                "bild": "unknown.png",
+                "geboren": "18.09.1937",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Henry",
+                           "mutter": "Helene",
+                           "familienname": "Bahruth",
+                           "geburtsname": "",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Helga",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Jörn",
+                "schule": "",
+                "beruf": "Drucker"
+        },
+    
+        {
+                "id": "1500",
+                "name": "Ursula Petersen",
+                "bild": "unknown.png",
+                "geboren": "26.7.1938",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Walter Henry Ferdinand",
+                           "mutter": "Margarete",
+                           "familienname": "Petersen",
+                           "geburtsname": "Kreienberg",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Hanns-Jürgen Bening",
+                         "datum": "13.4.1962",
+                         "bemerkung": ""
+                          },
+                "kinder": "Claudia, Christina",
+                "schule": "",
+                "beruf": "Buchhalterin",
+                "geschichten": "UrsulaPetersenGeschichten.html",
+                "geschichten2": "UrsulaJürgenGeschichten.html"
+        },
+    
+        {
+                "id": "1400",
+                "name": "Rolf Petersen",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Walter Henry Ferdinand",
+                           "mutter": "Margarete",
+                           "familienname": "Petersen",
+                           "geburtsname": "Kreienberg",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Ursel Weiß",
+                         "datum": "13.4.1962",
+                         "bemerkung": ""
+                          },
+                "kinder": "Arne",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "1300",
+                "name": "Gisela Petersen",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Bremerhaven",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Walter Henry Ferdinand",
+                           "mutter": "Margarete",
+                           "familienname": "Petersen",
+                           "geburtsname": "Kreienberg",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Jörg Heydorn",
+                         "datum": "",
+                         "bemerkung": ""
+                          },
+                "kinder": "keine",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "1200",
+                "name": "Inge Witt",
+                "bild": "unknown.png",
+                "geboren": "05.04.1939",
+                "geburtsort": "",
+                "gestorben": "2014",
+                "eltern": "",
+                "heirat": {
+                         "name": "Hellmuth Horwege",
+                         "datum": "1959",
+                         "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "1100",
+                "name": "Wolfgang",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Fritz",
+                           "mutter": "Charlotte",
+                           "familienname": "Bening",
+                           "geburtsname": "Paegel",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "",
+                         "datum": "13.4.1962",
+                         "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "",
+                "geschichten2": ""
+        },
+    
+        {
+                "id": "1000",
+                "name": "Dieter Bening",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Fritz",
+                           "mutter": "Charlotte",
+                           "familienname": "Bening",
+                           "geburtsname": "Paegel",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "",
+                         "datum": "",
+                         "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "",
+                "geschichten2": ""
+        },
+    
+       {
+                "id": "900",
+                "name": "Hanns-Jürgen Bening",
+                "bild": "Jürgen Bening klein.jpg",
+                "geboren": "03.01.1938",
+                "geburtsort": "Hamburg",
+                "gestorben": "02.04.1969",
+                "eltern": {
+                           "vater": "Fritz",
+                           "mutter": "Charlotte",
+                           "familienname": "Bening",
+                           "geburtsname": "Paegel",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Ursula Petersen",
+                         "datum": "13.4.1962",
+                         "bemerkung": ""
+                          },
+                "kinder": "Claudia, Christina",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "JürgenBeningGeschichten.html",
+                "geschichten2": "UrsulaJürgenGeschichten.html"
+        },
+    
+        {
+                "id": "800",
+                "name": "Claudia Bening",
+                "bild": "unknown.png",
+                "geboren": "07.09.1964",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Hanns-Jürgen",
+                           "mutter": "Ursula",
+                           "familienname": "Bening",
+                           "geburtsname": "Petersen",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Hans Thomas Erich Essert",
+                         "datum": "22.11.2002",
+                         "bemerkung": ""
+                          },
+                "kinder": "Felix, Philip",
+                "schule": "Abitur",
+                "beruf": "IT Consultant"
+        },
+    
+        {
+                "id": "700",
+                "name": "Thomas Essert",
+                "bild": "unknown.png",
+                "geboren": "26.06.1960",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Erich",
+                           "mutter": "Margarete",
+                           "familienname": "Essert",
+                           "geburtsname": "Schroeder",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Claudia Bening",
+                         "datum": "22.11.2002",
+                         "bemerkung": ""
+                          },
+                "kinder": "Felix, Philip",
+                "schule": "Abitur",
+                "beruf": "IT Consultant"
+        },
+    
+        {
+                "id": "600",
+                "name": "Christina Bening",
+                "bild": "unknown.png",
+                "geboren": "26.09.1966",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Hanns-Jürgen",
+                           "mutter": "Ursula",
+                           "familienname": "Bening",
+                           "geburtsname": "Petersen",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Michael Beck",
+                         "datum": "",
+                         "bemerkung": ""
+                          },
+                "kinder": "Larissa, Nathalie",
+                "schule": "Abitur",
+                "beruf": "Versicherungskauffrau"
+        },
+    
+        {
+                "id": "500",
+                "name": "Michael Beck",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Hermann",
+                           "mutter": "Renate",
+                           "familienname": "Beck",
+                           "geburtsname": "",
+                           "bemerkung": ""
+                          },
+                "heirat": {
+                         "name": "Christina Bening",
+                         "datum": "",
+                         "bemerkung": ""
+                          },
+                "kinder": "Larissa, Nathalie",
+                "schule": "",
+                "beruf": "Bauingenieur"
+        },
+    
+        {
+                "id": "400",
+                "name": "Larissa Beck",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Michael",
+                           "mutter": "Christine",
+                           "familienname": "Beck",
+                           "geburtsname": "Bening",
+                           "bemerkung": ""
+                          },
+                "heirat": "",
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "300",
+                "name": "Nathalie Beck",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Michael",
+                           "mutter": "Christine",
+                           "familienname": "Beck",
+                           "geburtsname": "Bening",
+                           "bemerkung": ""
+                          },
+                "heirat": "",
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "200",
+                "name": "Felix Essert",
+                "bild": "unknown.png",
+                "geboren": "12.01.1999",
+                "geburtsort": "Korneuburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Hans Thomas Erich",
+                           "mutter": "Claudia",
+                           "familienname": "Essert",
+                           "geburtsname": "Bening",
+                           "bemerkung": ""
+                         },
+                "heirat": "",
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+                "id": "100",
+                "name": "Philip Essert",
+                "bild": "unknown.png",
+                "geboren": "20.09.2001",
+                "geburtsort": "Hamburg",
+                "gestorben": "",
+                "eltern": {
+                           "vater": "Hans Thomas Erich",
+                           "mutter": "Claudia",
+                           "familienname": "Essert",
+                           "geburtsname": "Bening",
+                           "bemerkung": ""
+                          },
+                "heirat": "",
+                "kinder": "",
+                "schule": "",
+                "beruf": ""
+        }
+    
+	]
+
+}
+	

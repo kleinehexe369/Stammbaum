@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Urkundenliste</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- Einbindung jQuery -->
+      <link rel="stylesheet" href="../../bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../../bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" />
+      
+      <script src="../../jquery/jquery-3.2.1.min.js"></script>
+	
+      <link href="../styles/Stammbaum.css" rel="stylesheet" type="text/css" />
+	
+   </head>
+   
+   <body>
+     <div data-role="page" id="urkunden">
+
+       <div class="navbar navbar-default navbar-fixed-top" >
+          <div class="container">
+            <ul class="nav navbar-nav" data-role="navbar">
+              <li><a href="../Stammbaum.html">Home</a></li>
+              <li><a href="../Personen Petersen/index-Personen-Petersen.html">Personen Petersen/Bahruth</a></li>
+              <li><a href="../Personen Essert/index-Personen-Essert.html">Personen Essert</a></li>
+    	      <li class="active"><a href="./index-Urkunden.html">Urkunden</a></li>
+    	      <li><a href="../statistics.html">Statistik</a></li>
+            </ul>
+          </div>
+        </div><!-- /navbar -->
+                  
+        <div class="container">
+          <h1 data-role="header" class="title text-center">Liste der Urkunden</h1>
+       
+          <!-- Liste der Urkunden -->         
+          <ul id="urkundenliste" data-role="listview">
+          <!-- Hier werden die JSON Daten hineingeladen -->         
+          </ul>
+        </div> <!-- Container -->
+                
+                  
+<script type="text/javascript">
+$('#urkunden').on("pageshow", function() {
+
+	$('#urkundenliste').empty();
+
+	$.getJSON('urkunden.json', function(data) {
+		$.each(data.urkunden, function(i,item){
+                    $('<li><a href="' + item.referenz + '" data-transition="slide"><img src="Bilder/'+item.bild+'" /><h3>' + item.datum + ': ' + item.name + '</h3></a></li>').appendTo('#urkundenliste');
+		});
+		$('#urkundenliste').listview('refresh');
+	});
+});
+</script>
+
+
+     </div><!--/page -->
+   </body>
+</html>

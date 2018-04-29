@@ -1,0 +1,895 @@
+{
+ 	"personen": [
+    
+        {
+                "name": "Alexius Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "Essert",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Mathilda Franziska Verhufen",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Gerd, Rosa, Wilhelm, Adele, Jette, Anton, Grete",
+                "schule": "",
+                "beruf": "Flößer von Rechtenbach nach Duisburg",
+                "geschichten": "AlexiusEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Ludwig Essert der Ältere",
+                "bild": "unknown.png",
+                "geboren": "28.7.1866",
+                "geburtsort": "geboren und gelebt in Rechtenbach",
+                "gestorben": "1928",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "",
+                          "datum": "",
+                          "bemerkung": " die Frau ist 1866 geboren"
+                          },
+                "kinder": "Jünster Sohn Ludwig, 3 weitere Söhne (einer davon im 1. Weltkrieg gefallen mit 20/21 Jahren, in Lille angeschossen worden), Appolonia und 2 weitere Töchter (nach Lohr am Main geheiratet und waren ab 1943 nicht mehr in Rechtenbach)",
+                "schule": "",
+                "beruf": "",
+                "geschichten": ""
+        },
+    
+        {
+                "name": "Ludwig Essert der Jüngere",
+                "bild": "unknown.png",
+                "geboren": "6.12.1907",
+                "geburtsort": "Rechtenbach",
+                "gestorben": "1972, in Rechtenbach",
+                "eltern": {
+                          "vater": "Ludwig",
+                          "mutter": "",
+                          "familienname": "Essert",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Olga (geboren 1909 - 1997)",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Elisabeth, Hermann, Helene (1938-2002) (nach Frankfurt gegangen)",
+                "schule": "",
+                "beruf": "",
+                "geschichten": ""
+        },
+    
+    
+        {
+                "name": "Elisabeth Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Rechtenbach",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Ludwig Essert der Jüngere",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Günter Bartel",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": ""
+        },
+    
+        {
+                "name": "Barbara oder Babette Essert, Cousine von Ludwig Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Rechtenbach",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Waltraud Frei",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "BarbaraEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Elisabeth Essert",
+                "bild": "unknown.png",
+                "geboren": "Rechtenbach",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Ludwig",
+                          "mutter": "",
+                          "familienname": "Essert",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Bartel",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "ElisabethEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Hermann Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Rechtenbach",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Ludwig",
+                          "mutter": "",
+                          "familienname": "Essert",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Jan, Nils, Sven",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "HermannEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Elise Dahlem",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Wilhelm Essert",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Heinz Anton Erich Essert, Wilhelm, Erika",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "EliseDahlemGeschichten.html"
+        },
+    
+        {
+                "name": "Wilhelm Essert der Ältere",
+                "bild": "unknown.png",
+                "geboren": "1898",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Alexius",
+                          "mutter": "Mathilda Franziska",
+                          "familienname": "Essert",
+                          "geburtsname": "Verhufen",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Elise Dahlem",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Heinz Anton Erich Essert, Wilhelm, Erika",
+                "schule": "",
+                "beruf": "Kutscher für Petroleum",
+                "geschichten": "WilhelmEssertÄltereGeschichten.html"
+        },
+    
+        {
+                "name": "Gerd Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Alexius",
+                          "mutter": "Mathilda Franziska",
+                          "familienname": "Essert",
+                          "geburtsname": "Verhufen",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "eine behinderte Tochter",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "GerdEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Rosa Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Alexius",
+                          "mutter": "Mathilda Franziska",
+                          "familienname": "Essert",
+                          "geburtsname": "Verhufen",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Kämmerer",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "RosaEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Adele Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Alexius",
+                          "mutter": "Mathilda Franziska",
+                          "familienname": "Essert",
+                          "geburtsname": "Verhufen",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Hubert Schömer",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "2 Mödchen",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "AdeleEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Jette Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "Sehr alt geworden",
+                "eltern": {
+                          "vater": "Alexius",
+                          "mutter": "Mathilda Franziska",
+                          "familienname": "Essert",
+                          "geburtsname": "Verhufen",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Becker",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "JetteEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Anton Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Alexius",
+                          "mutter": "Mathilda Franziska",
+                          "familienname": "Essert",
+                          "geburtsname": "Verhufen",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Hedel",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "2 Töchter, Hannelore (schielte), Wilfriede (?)",
+                "schule": "",
+                "beruf": "Buchhalter bei der Demag (Deutsche Eisen und Metall AG",
+                "geschichten": "AntonEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Grete Essert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Alexius",
+                          "mutter": "Mathilda Franziska",
+                          "familienname": "Essert",
+                          "geburtsname": "Verhufen",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "GreteEssertGeschichten.html"
+        },
+    
+        {
+                "name": "Margarete Klein",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "",
+                "gestorben": "",
+                "eltern": "",
+                "heirat": {
+                          "name": "Heinrich Schröder",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Karl-Heinz, Emmi, Ilse, Hermann, Gisela, Margareta",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "",
+                "geschichten2": ""
+        },
+    
+        {
+                "name": "Heinrich Schröder",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Duisburg",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "",
+                          "mutter": "",
+                          "familienname": "",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Margarete Klein",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Hans, Karl-Heinz, Ilse, Hermann, Gisela, Margarete",
+                "schule": "",
+                "beruf": "Kranführer",
+                "geschichten": ""
+        },
+    
+        {
+                "name": "Gisela Schröder",
+                "bild": "unknown.png",
+                "geboren": "Duisburg",
+                "geburtsort": "Duisburg",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Heinrich",
+                          "mutter": "Margarete",
+                          "familienname": "Schröder",
+                          "geburtsname": "Klein",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                        "name": "Rolf Rübertus",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+                "kinder": "Sandra",
+                "schule": "",
+                "beruf": "",
+                "geschichten": "",
+                "geschichten2": ""
+        },
+    
+        {
+               "name": "Hermann Schröder",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Heinrich",
+                          "mutter": "Margarete",
+                          "familienname": "Schröder",
+                          "geburtsname": "Klein",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Gerlinde",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Claudia, Gerlinde",
+               "schule": "",
+               "beruf": "",
+               "geschichten": "HermannSchröderGeschichten.html",
+               "geschichten2": ""
+        },
+    
+        {
+                "name": "Ilse Schröder",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Duisburg",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Heinrich",
+                          "mutter": "Margarete",
+                          "familienname": "Schröder",
+                          "geburtsname": "Klein",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Friedel Glanert",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "Günter",
+                "schule": "",
+                "beruf": ""
+        },
+    
+        {
+               "name": "Emmi Schröder",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "hat sich umgebracht",
+               "eltern": {
+                          "vater": "Heinrich",
+                          "mutter": "Margarete",
+                          "familienname": "Schröder",
+                          "geburtsname": "Klein",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Hella (hat in der Bäckerei in der Neudofer Straße, gegenüber des Hbfs gearbeitet)",
+               "schule": "",
+               "beruf": "",
+               "geschichten": "EmmiSchröderGeschichten.html",
+               "geschichten2": ""
+        },
+    
+        {
+               "name": "Karl-Heinz",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Heinrich",
+                          "mutter": "Margarete",
+                          "familienname": "Schröder",
+                          "geburtsname": "Klein",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Rosi",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Hardy",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+               "name": "Hans Schröder",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Heinrich",
+                          "mutter": "Margarete",
+                          "familienname": "Schröder",
+                          "geburtsname": "Klein",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Helga",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Elke, Hans-Peter",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+               "name": "Gertrud Margarethe Schröder",
+               "bild": "unknown.png",
+               "geboren": "28.7.1934",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Heinrich",
+                          "mutter": "Margarete",
+                          "familienname": "Schröder",
+                          "geburtsname": "Klein",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Heinz Anton Erich Essert",
+                        "datum": "5.3.1954",
+                        "bemerkung": ""
+                         },
+               "kinder": "Roswitha, Thomas",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+               "name": "Erika Essert",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Wilhelm",
+                          "mutter": "Else",
+                          "familienname": "Essert",
+                          "geburtsname": "Dahlem",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Heiner Holtkötter",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Marcus, Clarissa",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+               "name": "Wilhelm Essert der Jüngere",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Wilhelm",
+                          "mutter": "Else",
+                          "familienname": "Essert",
+                          "geburtsname": "Dahlem",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Ursula",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Marco, Elke",
+               "schule": "",
+               "beruf": "Industrievertretungen Essert"
+        },
+    
+        {
+               "name": "Heinz Anton Erich Essert",
+               "bild": "unknown.png",
+               "geboren": "28.1.1933",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Wilhelm",
+                          "mutter": "Else",
+                          "familienname": "Essert",
+                          "geburtsname": "Dahlem",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Margaretha",
+                        "datum": "05.03.1954",
+                        "bemerkung": ""
+                         },
+               "kinder": "Roswitha, Thomas",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+               "name": "Claudia Bening",
+               "bild": "unknown.png",
+               "geboren": "07.09.1964",
+               "geburtsort": "Hamburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Hanns-Jürgen",
+                          "mutter": "Ursula",
+                          "familienname": "Bening",
+                          "geburtsname": "Petersen",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Hans Thomas Erich Essert",
+                        "datum": "22.11.2002",
+                        "bemerkung": ""
+                         },
+               "kinder": "Felix, Philip",
+               "schule": "Abitur",
+               "beruf": "IT Consultant"
+         },
+    
+         {
+               "name": "Thomas Essert",
+               "bild": "unknown.png",
+               "geboren": "26.06.1960",
+               "geburtsort": "Hamburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Erich",
+                          "mutter": "Margarete",
+                          "familienname": "Essert",
+                          "geburtsname": "Schroeder",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Claudia Bening",
+                        "datum": "22.11.2002",
+                        "bemerkung": ""
+                         },
+               "kinder": "Felix, Philip",
+               "schule": "Abitur",
+               "beruf": "IT Consultant"
+         },
+    
+        {
+               "name": "Elke Schröder",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Hans",
+                          "mutter": "Helga",
+                          "familienname": "Schröder",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Günther Skipgis ",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Manuel, Marina",
+               "schule": "",
+               "beruf": "Frisörin"
+          },
+    
+        {
+               "name": "Hans-Peter Schröder",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Hans",
+                          "mutter": "Helga",
+                          "familienname": "Schröder",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Sohn ist beim spielen im Rhein ertrunken",
+               "schule": "",
+               "beruf": ""
+          },
+    
+         {
+               "name": "Hardy",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Karl-Heinz",
+                          "mutter": "Rosie",
+                          "familienname": "Schröder",
+                          "geburtsname": "wahrscheinlich Süßelbeck",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Elke",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "Dennis",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+                "name": "Günter Glanert",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Duisburg",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Friedel",
+                          "mutter": "Ilse",
+                          "familienname": "Glanert",
+                          "geburtsname": "Schröder",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                          "name": "Elke",
+                          "datum": "",
+                          "bemerkung": ""
+                          },
+                "kinder": "",
+                "schule": "",
+                "beruf": "Busfahrer, Fahrlehrer",
+                "geschichten": "GünterGlanertGeschichten.html"
+        },
+    
+        {
+               "name": "Marco Essert",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Duisburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Wilhelm",
+                          "mutter": "Ursel",
+                          "familienname": "Essert",
+                          "geburtsname": "",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "Elke",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "keine",
+               "schule": "",
+               "beruf": "Industrievertretungen Essert"
+        },
+    
+        {
+               "name": "Roswitha Essert",
+               "bild": "unknown.png",
+               "geboren": "",
+               "geburtsort": "Hamburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Erich",
+                          "mutter": "Margarete",
+                          "familienname": "Essert",
+                          "geburtsname": "Schroeder",
+                          "bemerkung": ""
+                         },
+               "heirat": {
+                        "name": "",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+               "kinder": "",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+                "name": "Sandra Rübertus",
+                "bild": "unknown.png",
+                "geboren": "",
+                "geburtsort": "Duisburg",
+                "gestorben": "",
+                "eltern": {
+                          "vater": "Rolf",
+                          "mutter": "Gisela",
+                          "familienname": "",
+                          "geburtsname": "Schröder",
+                          "bemerkung": ""
+                          },
+                "heirat": {
+                        "name": "Jan Malik",
+                        "datum": "",
+                        "bemerkung": ""
+                         },
+                "kinder": "Finn",
+                "schule": "",
+                "beruf": "Grundschul-Lehrerin",
+                "geschichten": "",
+                "geschichten2": ""
+        },
+    
+        {
+               "name": "Felix Essert",
+               "bild": "unknown.png",
+               "geboren": "12.01.1999",
+               "geburtsort": "Korneuburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Hans Thomas Erich",
+                          "mutter": "Claudia",
+                          "familienname": "Essert",
+                          "geburtsname": "Bening",
+                          "bemerkung": ""
+                         },
+               "heirat": "",
+               "kinder": "",
+               "schule": "",
+               "beruf": ""
+        },
+    
+        {
+               "name": "Philip Essert",
+               "bild": "unknown.png",
+               "geboren": "20.09.2001",
+               "geburtsort": "Hamburg",
+               "gestorben": "",
+               "eltern": {
+                          "vater": "Hans Thomas Erich",
+                          "mutter": "Claudia",
+                          "familienname": "Essert",
+                          "geburtsname": "Bening",
+                          "bemerkung": ""
+                         },
+               "heirat": "",
+               "kinder": "",
+               "schule": "",
+               "beruf": ""
+        }
+    
+	]
+
+}
+	

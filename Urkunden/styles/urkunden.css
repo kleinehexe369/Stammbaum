@@ -1,0 +1,12 @@
+    
+[data-role=header] h1, h2 {
+font-family: 'Amaranth';
+color:#5C5758;
+font-size:6em;
+line-height:1em;
+text-align:left;
+}
+
+[data-role=content] p, td, [data-role=content] li {
+font-family: 'Amaranth';
+}

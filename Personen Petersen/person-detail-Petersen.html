@@ -1,0 +1,136 @@
+<html>
+<head>
+    <!-- Einbindung jQuery -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- Einbindung jQuery -->      
+      <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" />
+      
+      <script src="../jquery/jquery-3.2.1.min.js"></script>
+	
+      <link href="styles/Stammbaum.css" rel="stylesheet" type="text/css" />
+      
+      <title>Stammbaum</title>
+</head>
+
+<body>
+
+       <!-- Navigation -->
+       <div class="navbar navbar-default navbar-fixed-top" >
+          <div class="container">
+            <ul class="nav navbar-nav" data-role="navbar">
+              <li class="active"><a href="./Stammbaum.html">Home</a></li>
+              <li><a href="Personen Petersen/index-Personen-Petersen.html">Personen Petersen/Bahruth</a></li>
+              <li><a href="Personen Essert/index-Personen-Essert.html">Personen Essert</a></li>
+    	      <li><a href="Urkunden/index-Urkunden.html">Urkunden</a></li>
+    	      <li><a href="statistics.html">Statistik</a></li>
+            </ul>
+          </div>
+        </div><!-- /navbar -->
+	
+	    <div data-role="detail">
+            <table>
+                <tbody>
+                     <tr><td rowspan=7 id="bild"></td><td align="right">geboren: </td><td id="geboren"> </td></tr>
+                     <tr>                                     <td align="right">gestorben: </td><td id="gestorben"> </td></tr>
+                     <tr>                                     <td align="right">Eltern: </td><td id="eltern"> </td></tr>
+                     <tr>                                     <td align="right">Heirat: </td><td id="heirat"> </td></tr>
+                     <tr>                                     <td align="right">Kinder: </td><td id="kinder"> </td></tr>
+                     <tr>                                     <td align="right">Schulausbildung: </td><td id="schule"> </td></tr>
+                     <tr>                                     <td align="right">Beruf: </td><td id="beruf"></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="geschichten">
+        </div>
+        <div id="geschichten2">
+        </div>
+            
+        <div data-role="navbar" data-theme="d" data-position="fixed" data-tap-toggle="false" > 
+            <ul>
+                <li><a href="index-Personen-Petersen.html" data-icon="star">Personen Petersen/Bahruth</a></li>
+                <li><a href="../Personen Essert/index-Personen-Essert.html" data-icon="star">Personen Essert</a></li>
+     	        <li><a href="../Urkunden/index-Urkunden.html" data-icon="circle">Urkunden</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    
+        <script type="text/javascript">
+            function seitenaufruf (person){
+                console.log("click");
+                sessionStorage.name=person;
+                location.reload();
+            }
+        </script>
+    
+        <script type="text/javascript">
+            $('#person').on("pageshow", function() {
+	        var name = sessionStorage.name;
+                $('#titel').empty();
+                $('#name').empty();
+                $('#bild').empty();
+                $('#geboren').empty();
+                $('#gestorben').empty();
+                $('#eltern').empty();
+                $('#heirat').empty();
+                $('#kinder').empty();
+                $('#schule').empty();
+                $('#beruf').empty();
+                $('#geschichten').empty();
+                $('#geschichten2').empty();
+	        $.getJSON('personen-petersen.json', function(data) {
+		    $.each(data.personen, function(i,item){
+			    if(item.name == name){
+                    $('#titel').append(item.name);
+                    $('#name').append(item.name);
+                    $('#bild').append('<img src="Bilder/' + item.bild + '">');
+                    $('#geboren').append(item.geboren);
+                    $('#gestorben').append(item.gestorben);
+                    if (item.eltern != "") {
+                        if (item.eltern.vater !="") {
+                             if (item.eltern.familienname != "") {
+                                 $('#eltern').append('<a href="person-detail.html" onClick="javascript:sessionStorage.name=\'' + item.eltern.vater + ' ' + item.eltern.familienname + '\'; location.reload();">' + item.eltern.vater + ' ' + item.eltern.familienname + '</a> und ');
+                                 $('#eltern').append('<a href="person-detail.html" onClick="javascript:sessionStorage.name=\'' + item.eltern.mutter + ' ' + item.eltern.familienname + '\'; location.reload();">' + item.eltern.mutter + ' ' + item.eltern.familienname + '</a>');
+                             } else {
+                                 $('#eltern').append('<a href="person-detail.html" onClick="javascript:sessionStorage.name=\'' + item.eltern.vater + '\'; location.reload();">' + item.eltern.vater + '</a> und ');
+                                 $('#eltern').append('<a href="person-detail.html" onClick="javascript:sessionStorage.name=\'' + item.eltern.mutter + '\'; location.reload();">' + item.eltern.mutter + '</a>');
+                             };
+                         };
+                         if (item.eltern.geburtsname !="") {
+                             $('#eltern').append(', geb. ' + item.eltern.geburtsname);
+                         };
+                         if (item.eltern.bemerkung !="") {
+                             $('#eltern').append(', ' + item.eltern.bemerkung);
+                         };
+                    };
+                    if (item.heirat != "") {
+                        $('#heirat').append('<a href="person-detail.html" onClick="javascript:sessionStorage.name=\'' + item.heirat.name + '\'; location.reload();">' + item.heirat.name + '</a>');
+                            if (item.heirat.datum != "") {
+                                $('#heirat').append(', ' + item.heirat.datum);
+                            };
+                            if (item.heirat.bemerkung != "") {
+                                $('#heirat').append(', ' + item.heirat.bemerkung);
+                            };
+                    };
+                    $('#kinder').append(item.kinder);
+                    $('#schule').append(item.schule);
+                    $('#beruf').append(item.beruf);
+                    if (item.geschichten != "") {
+                        $("#geschichten").load(item.geschichten);   
+                    };
+                    if (item.geschichten2 != "") {
+                        $("#geschichten2").load(item.geschichten2);   
+                    };
+                };
+            });
+       });
+   })
+   </script>
+        
+    		  
+   </div><!-- /page -->
+
+</body>
+</html>
